@@ -34,15 +34,15 @@ let s:pollers = {
       \   },
       \   'file_parse_response': {
       \     'id': -1,
-      \     'wait_milliseconds': 100
+      \     'wait_milliseconds': 2000
       \   },
       \   'server_ready': {
       \     'id': -1,
-      \     'wait_milliseconds': 100
+      \     'wait_milliseconds': 2000
       \   },
       \   'receive_messages': {
       \     'id': -1,
-      \     'wait_milliseconds': 100
+      \     'wait_milliseconds': 2000
       \   }
       \ }
 let s:buftype_blacklist = {
